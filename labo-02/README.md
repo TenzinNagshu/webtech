@@ -6,11 +6,11 @@ Naam: (jouw naam)
 
 Welke elementen raakt elke selector? Eén zin per selector.
 
-- a. `header nav ul li a`: 
-- b. `article > p`: 
-- c. `.uren li:nth-child(3)`: 
-- d. `h2 ~ p`: 
-- e. `.rassen li:first-child`: 
+- a. `header nav ul li a`: Deze selector raakt elke link (`<a>`) die zich in een lijstitem (`<li>`) bevindt van een ongenummerde lijst (`<ul>`) binnen de navigatie (`<nav>`) van de `<header>`.
+- b. `article > p`: Deze selector raakt elke paragraaf (`<p>`) die een rechtstreeks kind is van een `<article>`-element.
+- c. `.uren li:nth-child(3)`: Deze selector raakt het derde lijstitem (`<li>`) in elke lijst (`<ul>`) die volgt na het element met de ID `uren`.
+- d. `h2 ~ p`: Deze selector raakt alle paragrafen (`<p>`) die ergens na een hoofdtitel van niveau 2 (`<h2>`) komen als broertjes.
+- e. `.rassen li:first-child`: Deze selector raakt het allereerste lijstitem (`<li>`) binnen elk lijstniveau van het element met de class `rassen`.
 
 ## 3. Voorspel, dan kijk
 
