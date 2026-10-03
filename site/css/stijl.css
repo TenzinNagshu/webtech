@@ -1,0 +1,29 @@
+/* 1. Tokens: namen die de rol benoemen */
+:root {
+  --kleur-tekst: #222222;
+  --kleur-achtergrond: #fbf7f0;;
+  --kleur-accent: #1a6b8a;
+  --lettertype-basis: Verdana, sans-serif;
+  --maat-basis: 1rem;
+}
+
+/* 2. Typografische basis: alle pagina's erven hiervan */
+body {
+  font-family: var(--lettertype-basis);
+  font-size: var(--maat-basis);
+  line-height: 1.6;
+  color: var(--kleur-tekst);
+  background-color: var(--kleur-achtergrond);
+}
+
+/* 3. Navigatie */
+nav a {
+  color: var(--kleur-accent);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--kleur-tekst);
+  text-decoration: underline;
+}
