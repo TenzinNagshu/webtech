@@ -69,7 +69,8 @@ h1 {
 }
 article p {
     max-width: 30rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
+    font-size: 1.25rem
 }
 article p:last-of-type {
     margin-bottom: 2rem;
