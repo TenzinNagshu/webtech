@@ -2,7 +2,38 @@
 
 /* === tokens === */
 :root {
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* === your rules === */
+div:nth-child(1) {
+    background-color: darkturquoise;
+}
+div:nth-child(2) {
+    background-color: darkviolet;
+}
+div:nth-child(3) {
+    background-color: deepskyblue;
+}
+main {
+    display: flex;
+    height: 100vh;
+    gap: 4vw;
+}
+div {
+    display:flex;
+    color:white;
+    margin: 10vh 4vw;
+    padding: 20rem 10rem;
+    display: inline-block;
+    font-size: 4rem;
+    align-items: center;
+   
+}
+div:nth-child(odd){
+    flex:1;
+}
+div:nth-child(even){
+    flex:2;
+}
+
